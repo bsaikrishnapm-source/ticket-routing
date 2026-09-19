@@ -1,5 +1,18 @@
 # Ticket Routing: Automation With Guardrails
 
+## Start here
+
+**Problem:** Determine when a support ticket can be assigned automatically and when it needs human review.
+
+**What is built:** An independent Python prototype or analysis, with product documents and synthetic data.
+
+**Code to run:** `python3 reproduce.py`
+
+**What you will see:** Compares two confidence thresholds, reporting coverage, correct assignments, and urgent cases missed.
+
+**Scope:** Runs locally in a terminal. No live customer integration, deployed application, or real AI model call is included.
+
+
 **Status:** Completed independent case study. **Domain:** Enterprise service operations. **Demonstrates:** AI product judgment, requirements, evaluation, and release governance.
 
 ## Recommendation
@@ -47,3 +60,11 @@ python3 reproduce.py
 ```
 
 [View the full product management portfolio](https://github.com/bsaikrishnapm-source/bsaikrishnapm-source)
+
+## Inspect the data in Excel
+
+```bash
+python3 export_data.py --output exports
+```
+
+Creates CSV tables from the bundled synthetic data. The terminal output identifies each table and its row count. For a different JSON file, add `--input path/to/data.json`. Existing table CSV files in the output directory are replaced. These exports contain scenario inputs, not production results.
