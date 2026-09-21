@@ -59,7 +59,7 @@ cd ticket-routing
 python3 reproduce.py
 ```
 
-[View the full product management portfolio](https://github.com/bsaikrishnapm-source/bsaikrishnapm-source)
+[Full PM portfolio](https://github.com/bsaikrishnapm-source/bsaikrishnapm-source) · [Portfolio roadmap](https://github.com/bsaikrishnapm-source/bsaikrishnapm-source/blob/main/ROADMAP.md) · [Project backlog](https://github.com/bsaikrishnapm-source/ticket-routing/issues) · [Planning board](https://github.com/users/bsaikrishnapm-source/projects/1)
 
 ## Inspect the data in Excel
 
