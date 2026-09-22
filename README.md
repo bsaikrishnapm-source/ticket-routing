@@ -1,5 +1,15 @@
 # Ticket Routing: Automation With Guardrails
 
+## Product decision at a glance
+
+**User need:** Help a support agent assign tickets faster without overlooking urgent cases.
+
+**Decision:** Keep human confirmation and evaluate critical exceptions separately from queue accuracy.
+
+**Evidence:** The original 20-case analysis misses an urgent battery case at both thresholds. The browser demo adds an authored hazard override and catches that fixture; independent labeling and representative evaluation remain open. The baseline table below describes the original Python policy, not the updated demo.
+
+**Inspect:** [Product requirements](PRD.md) · [Release reasoning](EVALUATION.md) · [Updated demo](DEMO_GUIDE.md) · [Validation](VALIDATION.md).
+
 ## Interactive product demo — implemented
 
 **Triage Console:** A configurable confidence threshold, authored urgency override, per-ticket decision reasons, evaluation counts, and local human-confirmed assignments.
